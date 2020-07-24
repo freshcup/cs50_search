@@ -1,9 +1,14 @@
+h1 {
+    font-size: 60px;
+    font-family: poppins;
+}
+
 
 .wrapper {
     text-align: center;
 }
 
-input {
+.search_bar {
     width: 527px;
     height: 44px;
     border-radius: 24px;
@@ -12,12 +17,24 @@ input {
     margin: 10;
 }
 
+.search_bar:hover {
+    border: 1px solid #5F6368;
+}
+
 .button {
     height: 36px;
+    color: #5F6368;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     background-color: #f2f2f2;
     border-radius: 4px;
     text-align: center;
+    min-width: 54px;
+    box-shadow: none  !important;
+    margin: 11px 4px;
+    border: 1px solid #f2f2f2;
 }
    
+.button:hover {
+    border: 1px solid #5F6368;
+}
