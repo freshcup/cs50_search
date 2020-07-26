@@ -39,6 +39,22 @@ menu a:hover {
     padding-top: 5%;
 }
 
+.label {
+    text-align: left;
+    display: inline-block;
+    min-width: 180px;
+}
+
+#findpages {
+    text-align: left;
+    
+}
+
+.adv_input {
+    text-align: left;
+    display: inline-block;
+}
+
 .search_bar {
     width: 527px;
     height: 44px;
@@ -47,6 +63,19 @@ menu a:hover {
     border: 1px solid #dfe1e5;
     margin: 10;
 }
+
+.search_bar_adv {
+    width: 527px;
+    height: 44px;
+    border-radius: 1px;
+    background: #ffffff;
+    border: 1px solid #dfe1e5;
+    height: 25px;
+    padding: 1px 8px;
+    margin: 5px;
+}
+
+    
 
 .search_bar:hover {
     border: 1px solid #5F6368;
@@ -68,4 +97,17 @@ menu a:hover {
    
 .button:hover {
     border: 1px solid #5F6368;
+}
+
+.adv_button{
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    height: 30px;
+    min-width: 120px;
+    border-radius: 2px;
+}
+
+.adv_button:hover {
+    background-color: #3079ed;
 }

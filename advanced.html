@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title> CS50 Advanced Search</title>
+        <title>Fresh Cup | advanced search</title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>    
     <body>
@@ -10,15 +10,23 @@
             <a href="index.html" target="_self">Search</a> <a href="image.html" target="_self">Image</a>
         </menu>
         <div class="wrapper">
-            <img src="cs50advanced_logo.png" alt="cs50 Search logo">
+            <img src="advanced_search_logo.png" alt="cs50 Search logo">
+            <br>
+            Find pages with...
             <form action="http://www.google.com/search">  
+                <div id="adv_form">
+                    
+                    <div class="label">all these words:</div><div class="adv_input"><input type="text" class="search_bar_adv" name="as_q"></div><br>
+                    <div class="label">this exact word or phrase:</div><div class="adv_input"><input type="text" class="search_bar_adv"name="as_epq"></div><br>
+                    <div class="label">any of these words:</div><div class="adv_input"><input type="text" class="search_bar_adv" name="as_oq"></div><br>
+                    <div class="label">none of these words:</div><div class="adv_input"><input type="text" class="search_bar_adv" name="as_eq"></div><br>
+                       
+                    
+                        
+                </div>
                 <br>
-                <input type="text" class="search_bar" name="q">
-                <br>
-                <input type="submit" class="button" name="btnK" value="Google Search" />
-                <input type="submit" class="button" name="btnI" value="I'm Feeling Lucky"  />
+                <input type="submit" class="adv_button" value="Advanced Search" />
             </form>
         </div>
     </body>
 </html>
-
